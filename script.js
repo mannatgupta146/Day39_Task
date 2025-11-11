@@ -7,10 +7,17 @@ function sayHello(){
 sayHello()
 
 // 2. Create a function `add(a, b)` that returns their sum and log the result.
-
+function add(a, b){
+    let sum = a+b;
+    console.log(sum)
+}
+add(5,7)
 
 // 3. Write a function with a default parameter `name = "Guest"` that prints `Hi <name>`.
-
+function guest(name = "Guest"){
+    console.log(`Hi ${name}`)
+}
+guest()
 
 // 4. Use rest parameters to make a function that adds unlimited numbers.
 
