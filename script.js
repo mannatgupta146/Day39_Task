@@ -1,7 +1,10 @@
 // Level 1 - Basic Function, Array and Object Code Tasks (Easy)
 
 // 1. Write a function `sayHello()` that prints `Hello JavaScript`.
-
+function sayHello(){
+    console.log("Hello Javascript")
+}
+sayHello()
 
 // 2. Create a function `add(a, b)` that returns their sum and log the result.
 
