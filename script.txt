@@ -48,3 +48,9 @@ let arr = ["mango", "pineapple", "orange", "grapes", "kiwi"]
 arr.shift()
 arr.push("apple")
 console.log(arr)
+
+// 8. Use a `for` loop to print all elements of an array.
+let ar = [1, 2, 3, 4, 5, 6]
+for(let i = 0; i<ar.length; i++){
+    console.log(ar[i])
+}
