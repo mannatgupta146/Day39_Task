@@ -1,71 +1,77 @@
 # Day 39 Task | Cohort 2.0
 
-This file contains all the **JavaScript exercises and experiments** I completed as part of **Day 35** in **Sheryians Coding School Cohort 2.0**.  
-It focuses on **loops**, **conditionals**, and **user input handling**, with slightly more logical and interactive problems tested directly in the browser console.
+This file contains all the **JavaScript exercises and experiments** I completed as part of **Day 39** in **Sheryians Coding School Cohort 2.0**.  
+It focuses on **basic functions**, **arrays**, and **objects**, helping to strengthen the foundational understanding of JavaScript syntax and logic through simple, beginner-friendly problems.
 
-📌 **About the Day 35 Task**  
-Day 35 was focused on applying **JavaScript loops and conditionals** to real-world style logical problems.  
-The goal was to go beyond basic syntax and practice **problem-solving using loops**, **validations**, and **decision-making** with user inputs.
+📌 **About the Day 39 Task**  
+Day 39 was centered around learning and practicing **core JavaScript fundamentals** like functions, parameters, arrays, and object manipulation.  
+The goal was to build a strong base in writing, calling, and structuring functions, while also experimenting with modern concepts like **default parameters**, **rest parameters**, and **IIFEs**.
 
 ✨ **Task Description**
 
 | **Feature** | **Description** |
 |--------------|-----------------|
-| **While & For Loops** | Used for repetition and iteration over user inputs and numeric ranges. |
-| **Conditional Logic** | Implemented logical decisions using **if**, **else if**, and **else** statements. |
-| **User Input Handling** | Used **prompt()**, **Number()**, and **isNaN()** to take and validate user inputs. |
-| **Practical Scenarios** | Created logical mini-programs like password validation, ATM simulation, and counting logic. |
-| **Break & Continue** | Applied loop control statements for precise iteration handling. |
-| **Counters & Accumulators** | Used variables to count occurrences or accumulate sums dynamically. |
+| **Functions** | Created reusable blocks of code for printing, adding, and handling values. |
+| **Default Parameters** | Used default arguments in functions for flexible input handling. |
+| **Rest Parameters** | Implemented rest parameters to handle unlimited numbers dynamically. |
+| **Nested Functions** | Demonstrated scope and closure using functions inside functions. |
+| **Arrays** | Practiced adding, removing, and iterating through array elements. |
+| **Objects** | Created and accessed objects using `for...in` loops to display key values. |
+| **IIFE (Immediately Invoked Function Expression)** | Executed functions instantly upon definition. |
+| **setTimeout()** | Introduced asynchronous execution using time delay functions. |
 
 🛠️ **Technologies Used**  
-- **JavaScript** – Loops, conditionals, and user input handling  
-- **Browser Console** – For interactive execution and output testing  
-- **HTML (optional)** – For embedding and testing scripts  
+- **JavaScript (ES6+)** – For functions, arrays, and objects  
+- **Browser Console / VS Code** – For testing and execution  
+- **Node.js (optional)** – For running JS scripts locally  
 
 ## 🧩 Practice Questions
 
-### Level 2 – Slightly Tougher but Logical
+### Level 1 – Basic Function, Array and Object Code Tasks (Easy)
 
-11. **Allow only 3 attempts to enter correct password**  
-    Checks for correct input within 3 tries. Locks account if incorrect all three times.
+1. **Print “Hello JavaScript” using a simple function**  
+   Demonstrates function creation and execution.
 
-12. **Ask user for words until they type “stop” and count how many times “yes” appeared**  
-    Demonstrates string comparison, loop continuation, and counter increment logic.
+2. **Create a function that adds two numbers**  
+   Uses parameters and returns/logs the sum.
 
-13. **Print numbers divisible by 7 from 1 to 50**  
-    Uses modulo operator `%` to filter divisible numbers.
+3. **Use a default parameter `name = "Guest"`**  
+   Prints a greeting message dynamically.
 
-14. **Sum of all odd numbers from 1 to 30**  
-    Adds all odd numbers and displays the total using an accumulator variable.
+4. **Add unlimited numbers using rest parameters**  
+   Uses `...nums` to handle variable arguments and calculate total.
 
-15. **Keep asking number until user enters an even number**  
-    Uses a continuous loop and input validation to check for even input.
+5. **Implement an IIFE that prints a message instantly**  
+   Demonstrates Immediately Invoked Function Expressions.
 
-16. **Print numbers between two user inputs**  
-    Takes start and end values from the user and prints numbers in the given range.
+6. **Create a nested function accessing outer variable**  
+   Shows the concept of lexical scope and closure.
 
-17. **Print only first 3 odd numbers from 1 to 20**  
-    Uses a counter and `break` statement to stop loop after 3 odd numbers.
+7. **Manipulate an array of fruits**  
+   Removes the first element and adds one at the end.
 
-18. **Ask user 5 numbers and count how many are positive**  
-    Demonstrates counting based on user input using a `while` loop.
+8. **Use a loop to print array elements**  
+   Uses a `for` loop to iterate through an array.
 
-19. **ATM Simulator – Allow 3 withdrawals**  
-    Simulates ATM transactions by deducting withdrawal amounts and checking balance validity.
+9. **Create and iterate through an object**  
+   Prints all key values using `for...in` loop.
+
+10. **Use `setTimeout()` to display a message after 2 seconds**  
+    Introduces asynchronous JavaScript and callback execution.
 
 📖 **Learning Outcome**  
 Through this task, I learned how to:  
-- Use **while** and **for** loops effectively in logical problems  
-- Apply **break** and **continue** for controlled loop flow  
-- Handle and validate **user input** correctly using **trim()**, **isNaN()**, and **Number()**  
-- Use **counters** and **accumulators** to track occurrences and sums  
-- Simulate **real-life scenarios** like password attempts and ATM withdrawals  
-- Write **clean, readable, and error-handled JavaScript code**
+- Write and execute **functions** effectively  
+- Use **default** and **rest parameters** for flexibility  
+- Understand **scope** and **closure** using nested functions  
+- Manipulate **arrays** and **objects** using built-in methods and loops  
+- Implement **IIFEs** for immediate execution  
+- Apply **setTimeout()** for asynchronous behavior  
+- Build a solid foundation for advanced JavaScript concepts  
 
 🌟 **Acknowledgement**  
 This task was completed as part of **Sheryians Coding School Cohort 2.0** under the guidance of **Harsh Bhaiya**.  
 
-It helped me strengthen my understanding of **loop-based logic**, **user validation**, and **conditional problem-solving** through practical and interactive examples.
+It helped me strengthen my understanding of **JavaScript basics**, laying the groundwork for more complex problem-solving and real-world coding scenarios.
 
 ---
