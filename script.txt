@@ -42,3 +42,9 @@ function outer(a){
     inner()
 }
 outer(5)
+
+// 7. Create an array of 5 fruits. Add one at the end and remove one from the beginning.
+let arr = ["mango", "pineapple", "orange", "grapes", "kiwi"]
+arr.shift()
+arr.push("apple")
+console.log(arr)

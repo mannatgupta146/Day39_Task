@@ -2,7 +2,6 @@
 
 
 
-// 7. Create an array of 5 fruits. Add one at the end and remove one from the beginning.
 
 
 // 8. Use a `for` loop to print all elements of an array.
